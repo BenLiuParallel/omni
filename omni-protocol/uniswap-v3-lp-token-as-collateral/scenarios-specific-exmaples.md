@@ -14,6 +14,8 @@ Note in this case the liquidation threshold for the LP position is the same as t
 
 
 
+
+
 ### **Scenario #2:** $$P_w \le P_a < P_{liq}\le P_b$$
 
 ETH is at $1000. User provides liquidity of 1 ETH plus 1596.12 USDT within $500-1500 price range. The LP position is worth $2596.12, and user used the LP collateral and borrowed 60% of collateral value, i.e. 1557.67 USDT. Furthermore, OMNI sets ETH liquidation threshold is 70%.
@@ -26,7 +28,7 @@ ETH is at $1000. User provides liquidity of 1 ETH plus 1596.12 USDT within $500-
 
 Here we see the liquidation threshold for the LP position is slightly higher than that of ETH, amid the higher value stability. The excess liquidation threshold ($$81.41\%-80\%=1.41\%$$) is small due to the fact that liquidation price is very much approaching the lower bound of liquidity provision, so the LP position is already predominantly composed of ETH (i.e. 81.19% of the LP position value is contributed by ETH to be exact).
 
-### ****
+
 
 ### **Scenario #3:** $$P_a<P_w <P_{liq}< P_b$$
 
